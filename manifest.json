@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Auto Apply",
+    "author": "Nathan Redd",
+    "description": "Autofill resume details when applying for a job using data from your resume",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["main.js"]
+        }
+    ]
+}
